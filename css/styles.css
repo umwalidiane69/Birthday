@@ -58,3 +58,10 @@ nav>ul>li>a{
         text-align: center;
         width: 100%;
       }
+      #pag{
+          background-color:rgb(176, 179, 27);
+          font-size: 20px;
+          color: black
+
+
+      }

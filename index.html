@@ -6,13 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
   <div class="container">
+      <div class="nav">
+      <h1>The born day</h1>
+     
+          <nav> 
+             <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="About.html">ABOUT</a></li>
+              <li><a href="Contact us.html">CONTACT US</a></li>
+              <li><a href="More.html">MORE</a></li>
+            </ul>
+          </nav>
+      </div>
   <div class="row">
-  <h1>The born day</h1>
-  <div class="col-md-4">
+  <div class="col-md-6">
+    <div class="card"></div>
   <p>this application is about calculation of</p>  
   <p>When someone near and dear to your heart turns another
      year older, you’ll want to do everything you can to 
@@ -21,31 +35,36 @@
        at the honoree’s favorite restaurant, it’s tradition to
         give the guest of honor a Happy Birthday card.
          As if picking out a card wasn’t tough enough, on top 
-    of that you’ll need to craft a happy birthday message too.</p></div>
-    <div class="col-md-4">
+    of that you’ll need to craft a happy birthday message too.</p>
+  </div>
+    <div class="col-md-6">
   <p>
     So This application will help you to calculate the day u were born, and giving you akan name depending on the day u were born according to Ghanian culture.
     People from Ghan give a born child akan name from the day they born 
     and those name are different,some are for boys other are for Girls.
-  </p></div></div>
+  </p>
+  
+</div>
+</div>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-4">
   <p>
     Here below is table that helps you to calculate your day!
     you require to enter your birthday and the century you were born
     , then you click on button (Submit) to see your akan name
-  </p></div>
-  <div class="card">
-    
-      
- <div id="mimi">
-      <h2>Akan name form</h2>
-      <div class="col-md-5">
+  </p>
+</div>
+   <div class="card">
+    <div id="mimi">
+     <h2>Akan name form</h2>
+      <div class="col-md-8">
     <form>
       <div id="nini">
          Enter birth Date: <input type="text" id="value1"></div>
-    
-        <div id="nene"> 
+         <div id="nene">
+            Enter birth Month: <input type="text" id="value2"></div>
+       
+        <!-- <div id="nene"> 
             Select birth Month:
             <select id="value2">
              <option value="january" >1</option>
@@ -60,7 +79,7 @@
              <option value="october">10</option>
              <option value="november">11</option>
              <option value="december">12</option>
-            </select></div>
+            </select></div> -->
             <div id="nono">
                 Enter birth Year: <input type="text" id="value3"></div>
               <div id="nunu">  
@@ -78,11 +97,21 @@
 
     <button type="button" onclick="birtday()">Submit</button></div>
   </form></div>
- </div></div></div>
+  
+    <p></p>
+  
+ </div>
+</div>
+</div>
+  </div>
   <div id="result"> </div>
     <p id="pag"></p>
 <p></p>
 <p></p>
-<p></p></div>
+<p></p>
+</div>
+<main>
+    <p>Umwali Diane , copyright &copy; 2019</p>
+  </main>
 </body>
 </html>
