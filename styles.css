@@ -21,6 +21,16 @@ h1{
 #nini,#nono,#nene,#momo,#nunu,#nana{
     padding: 40px;
     font-size: 18px;
-   
     
+    
+}
+#value2,#Gender{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+}
+#value1,#value3,#value4{
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
 }

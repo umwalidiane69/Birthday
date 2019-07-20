@@ -1,7 +1,7 @@
 function birtday(){
   
   var DD = parseInt(document.querySelector("#value1").value);
-  var MM = parseInt(document.querySelector("#value2").value);
+  var MM = document.querySelector("#value2").value;
   
   var YY = parseInt(document.querySelector("#value3").value);
   var CC = parseInt(document.querySelector("#value4").value);
@@ -11,7 +11,7 @@ function birtday(){
   var Submit =Math.floor(Sub) ;
   if(DD<=29 && MM==2){
   if(DD>=1 && DD<=31){
-    // if(DD<=29 && MM==2){
+    
     
  if(op=="cal"&& Submit == 7){
    document.getElementById("pag").innerHTML="Akosua";
